@@ -28,11 +28,4 @@ public class DefaultPage {
         wait.until(ExpectedConditions.visibilityOf(element));
     }
 
-//    public static void waitForPageLoad() {
-//        Function<WebDriver, Boolean> loadCondition =
-//                x -> ((JavascriptExecutor) getDriver()).executeScript("return document.readyState").equals(
-//                        "complete");
-//        new WebDriverWait(getDriver(), MILLISECONDS.toSeconds(50), 200).until(loadCondition);
-//    }
-
 }

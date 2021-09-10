@@ -18,7 +18,6 @@ public class SearchResultPage extends DefaultPage{
     private List<WebElement> itemsOnThePageList;
 
     public void ClickOnSHowMoreResults(){
-//       waitForElementVisibility(10, showMoreResultsButton);
        showMoreResultsButton.click();
     }
 

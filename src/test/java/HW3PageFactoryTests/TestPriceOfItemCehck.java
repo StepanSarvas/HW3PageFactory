@@ -23,7 +23,7 @@ public class TestPriceOfItemCehck extends DefaultTest{
             TimeUnit.MILLISECONDS.sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
-        }                                                   //New price value is available in 3-5 seconds
+        }                                                   //New price value become available in 3-5 seconds
         assertEquals(getMarshallHeadphonesPage().getPriseOfItem(), EXPECTED_PRICE);
     }
 }
